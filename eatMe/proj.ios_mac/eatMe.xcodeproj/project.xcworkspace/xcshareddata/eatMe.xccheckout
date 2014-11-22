@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2C40ABBC-A08A-4328-9CAC-A9FCB9A0476B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>eatMe</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E091CF26860212001E3EC7DDAFE43CDCE70144B9</key>
+		<string>https://github.com/picospuch/iEatMe.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>eatMe/proj.ios_mac/eatMe.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E091CF26860212001E3EC7DDAFE43CDCE70144B9</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/picospuch/iEatMe.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E091CF26860212001E3EC7DDAFE43CDCE70144B9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E091CF26860212001E3EC7DDAFE43CDCE70144B9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>eatMe</string>
+		</dict>
+	</array>
+</dict>
+</plist>
