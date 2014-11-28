@@ -1,4 +1,5 @@
 #include "HelloWorldScene.h"
+#include "puch.hh"
 
 USING_NS_CC;
 
@@ -50,7 +51,12 @@ bool HelloWorld::init()
 
     /////////////////////////////
     // 3. add your codes below...
-
+    printf("abc");
+    EventListenerMouse* _mouseListener = EventListenerMouse::create();
+    _mouseListener->onMouseDown = CC_CALLBACK_1(responseToEvent, 0);
+    
+    _eventDispatcher->addEventListenerWithSceneGraphPriority(_mouseListener, this);
+    
     // add a label shows "Hello World"
     // create and initialize a label
     
@@ -72,7 +78,10 @@ bool HelloWorld::init()
     sprite->setPosition(Vec2(visibleSize.width/2 + origin.x, visibleSize.height/2 + origin.y));
 
     // add the sprite as a child to this layer
-    this->addChild(sprite, 0);
+    auto grid = NodeGrid::create();
+    grid->addChild(sprite);
+    probe.a = grid;
+    this->addChild(grid, 0);
     
     return true;
 }

@@ -62,6 +62,8 @@
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
+		D2B5AF4E1A28C46900E5830A /* puch.cc in Sources */ = {isa = PBXBuildFile; fileRef = D2B5AF4C1A28C46900E5830A /* puch.cc */; };
+		D2B5AF4F1A28C46900E5830A /* puch.cc in Sources */ = {isa = PBXBuildFile; fileRef = D2B5AF4C1A28C46900E5830A /* puch.cc */; };
 		D2C6D9381A20E0F400EB85A0 /* hungryfish9.png in Resources */ = {isa = PBXBuildFile; fileRef = D2C6D9371A20E0F400EB85A0 /* hungryfish9.png */; };
 		D2C6D9391A20E0F400EB85A0 /* hungryfish9.png in Resources */ = {isa = PBXBuildFile; fileRef = D2C6D9371A20E0F400EB85A0 /* hungryfish9.png */; };
 		D44C620C132DFF330009C878 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620B132DFF330009C878 /* OpenAL.framework */; };
@@ -154,6 +156,8 @@
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D2B5AF4C1A28C46900E5830A /* puch.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = puch.cc; sourceTree = "<group>"; };
+		D2B5AF4D1A28C46900E5830A /* puch.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = puch.hh; sourceTree = "<group>"; };
 		D2C6D9371A20E0F400EB85A0 /* hungryfish9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hungryfish9.png; sourceTree = "<group>"; };
 		D44C620B132DFF330009C878 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
 		D44C620D132DFF430009C878 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -291,6 +295,8 @@
 				46880B8519C43A87006E1F66 /* AppDelegate.h */,
 				46880B8619C43A87006E1F66 /* HelloWorldScene.cpp */,
 				46880B8719C43A87006E1F66 /* HelloWorldScene.h */,
+				D2B5AF4C1A28C46900E5830A /* puch.cc */,
+				D2B5AF4D1A28C46900E5830A /* puch.hh */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -494,6 +500,7 @@
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				46880B8A19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
+				D2B5AF4E1A28C46900E5830A /* puch.cc in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
 			);
@@ -506,6 +513,7 @@
 				46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
 				46880B8B19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
+				D2B5AF4F1A28C46900E5830A /* puch.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
